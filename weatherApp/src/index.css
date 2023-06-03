@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to bottom, #2e8bc0, #005b96);
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; 
+ 
+}
+
+.app .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
+
+.container {
+  max-width: 700px;
+  height: 470px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  font-size: 20px;
+  transform: rotate(269deg);
+}
+
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.background {
+  z-index: -1;
+}
+
+.background-blue {
+  height: 100%;
+  background: linear-gradient(to bottom, #83c8f0, #024876) !important;
+}
+
+.background-orange {
+  height: 100%;
+  background: linear-gradient(to bottom, #fca800, #f6d769)!important;
+}
+
+
+.app .info{
+width: 700px;
+height: 200px;
+justify-content: space-arounf;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.app .details{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.app h2{
+  font-size: 40px;
+
+}
+.app .temperature{
+
+}
